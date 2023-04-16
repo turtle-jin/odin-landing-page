@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* end of the reset */
 
 
 
@@ -58,16 +58,13 @@ header, footer{
    background-color: #1F2937; 
    display: flex;
    justify-content: space-between;
-   padding: 20px 150px;
-   
-   
+   padding: 1.5vh 9vh;  
 }
 
 #logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
-       
+    font-weight: bold;      
 }
 
 nav {
@@ -75,7 +72,6 @@ nav {
     justify-self: space-between;
     gap: 20px;
     transition: all 0.2s;
-
 }
 
 .section1 {
@@ -83,16 +79,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 80px 150px 80px 150px;
-    gap: 30px;
-    
+    padding: 4vh 9vh;
+    gap: 30px;   
 }
 
 .section1Text {
     text-decoration: none;
     color: grey;  
     font-size: 18px;
-
 }
 
 button {
@@ -102,8 +96,7 @@ button {
     padding: 5px;
     border-style: none;
     border-radius: 5px;
-    transition: all 0.2s;
-    
+    transition: all 0.2s;    
 }
 
 .section1Left {
@@ -112,24 +105,17 @@ button {
     width: 50%;
     flex-wrap: wrap;
     justify-content: center;
-
     gap: 20px;
-
 }
-
-
 
 .pic1 {
     display: flex;
     height: 220px;
     width: 50%;  
     border: #1e2f23 solid 2px;
-    box-shadow: 0px 0px 32px 9px #31572c;
-    
+    box-shadow: 0px 0px 32px 9px #31572c;    
     background-color: black;
     justify-content: center;
-    
-
 }
 
 
@@ -141,13 +127,7 @@ h2 {
 
 .section2 {
     background-color: white;
-    /* border: #1F2937 solid 5px; */
-    padding: 40px 60px;
-    
-    
-  
-    
-
+    padding: 4vh 5vh;
 }
 
 h3 {
@@ -155,22 +135,14 @@ h3 {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    
-    /* padding: 20px; */
 }
 
 .picInfo img {
-    /* background-color: #3882F6; */
-    width: 10em;
-    height: 10em;
+    width: 10vh;
+    height: 10vh;
     padding: 5px;
-    border-radius: 20px;
-    /* border: #1F2937 solid 5px; */
-    
- 
-    
+    border-radius: 20px;   
 }
-
 
 .picInfo {
     background-color: white;
@@ -178,9 +150,7 @@ h3 {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-    
-    /* border: gold solid 5px; */
-    padding: 20px 150px;
+    padding: 2vh 8vh;
 }
 
 .sec2Para {
@@ -193,8 +163,6 @@ h3 {
     text-align: center;
     color: gray;
     font-size: 15px;
-    /* border: #1F2937 solid 5px; */
-   
 }
 
 .quote {
@@ -210,7 +178,6 @@ h3 {
     color: #1F2937;
     font-weight: lighter;
     font-style: italic;
-
 }
 
 #lokiSig {
@@ -218,7 +185,7 @@ h3 {
     font-weight: 900;
     display: flex;
     justify-content: flex-end;
-    padding-right: 30px;
+    padding-right: 1vh;
 }
 
 .section4 {
@@ -227,32 +194,29 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 4em 7em;
-    padding: 1em;
+    margin: 4vh 10vh;
+    padding: 1vh;
     color: #e5e7eb;
-    flex-basis: 30%;
-    
+    flex-basis: 30%;   
 }
 
 .sec4Left {
     display: flex;
     flex-direction: column;
-    gap: .5em;
-
+    gap: .5vh;
 }
 h4 {
     font-weight: bold;
     font-size: 20px;
 }
-.section4 button {
-    
+
+.section4 button {   
     border: #e5e7eb solid 2px;
-    margin: 50px;
+    margin: 3vh;
     display: flex;
     width:fit-content;
-    padding: 5px 30px;
+    padding: 0.5vh 2vh;
     justify-content: center;
-
 }
 
 footer {
